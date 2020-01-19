@@ -1,0 +1,21 @@
+
+
+
+ <strong>Les migrations</strong> dans Symfony sont des fichiers de création, modification, suppression, ajout ...Relations...<strong>Regroupés dans des scripts de migration.</strong>
+
+<strong>Les fixtures</strong> dans Symfony sont des fichiers exécutables pour créer des jeux de fausses données<br>
+
+<strong>Le mapping objet-relationnel</strong> consiste à déclarer une association entre une (ou plusieurs) classes et une table, et chaque attribut de la classe avec un champ de la table associée.<br>
+Par exemple, la classe Customer sera associée à la table CUSTOMER, et les attributs associés comme suit :<br>
+        Customer ≈ CUSTOMER :<br>
+        Customer.customerId est associée avec CUSTOMER.CUSTOMER_ID<br>
+        Customer.customerName est associée avec CUSTOMER.CUSTOMER_NAME<br>
+        Customer.customerAddress est associée avec CUSTOMER.CUSTOMER_ADDRESS<br>
+Un fichier texte peut alors être créé pour déclarer et décrire en bloc de telles mises en correspondance sur un ensemble de classes et tables du modèle. Lorsque le langage le permet (Java par exemple), il est même possible d'utiliser l'introspection pour récupérer les informations sur les attributs lors de l'exécution (type, valeur, etc.) et pouvoir construire dynamiquement les requêtes SQL de type CRUD. Des mécanismes similaires existent pour les autres langages disposant de frameworks de mapping objet-relationnel.</br>        
+
+
+php bin/console make:fixtures
+php bin/console doctrine:fixtures:load
+
+Controller selection -> Repository
+		manipulations -> Manager

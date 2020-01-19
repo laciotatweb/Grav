@@ -1,0 +1,31 @@
+1580036492
+a:2:{s:7:"content";s:1787:"<h1>Doctrine et Symfony</h1>
+<p><a href="https://www.youtube.com/watch?v=UTusmVpwJXo">Vidéo SYMFONY 1/4 : 1H POUR COMPRENDRE LE FRAMEWORK !</a>    </p>
+<h2>Classe avec propriétés -&gt; Table avec champs</h2>
+<div class="notices yellow">
+<h2>create -&gt; entity -&gt; migration</h2>
+</div>
+<h3>Entity</h3>
+<p>Représente une table</p>
+<h3>Manager</h3>
+<p>Permet de manipuler une ligne
+Insertion<br />
+Mise à jour<br />
+Suppression  </p>
+<h3>Repository</h3>
+<p>Permet de faire des selections</p>
+<h3>Création de base de données</h3>
+<h4>Configuration</h4>
+<p>.env<br>
+DATABASE_URL=mysql://dbname:password@127.0.0.1:3306/symfony?serverVersion=5.7<br></p>
+<h3>cmd création</h3>
+<p>php bin/console doctrine:database:create<br>
+php bin/console make:entity<br>
+php bin/console make:migration<br>
+php bin/console doctrine:migrations:migrate<br></p>
+<h3>installer module fixture</h3>
+<p>composer require orm-fixtures --dev</p>
+<h2>Object-Relational Mapping</h2>
+<p><a href="https://fr.wikipedia.org/wiki/Mapping_objet-relationnel">Wikipédia php bin/console make:Mapping objet-relationnel</a>
+Un mapping objet-relationnel (en anglais object-relational mapping ou ORM) est un type de programme informatique qui se place en interface entre un programme applicatif et une base de données relationnelle pour simuler une base de données orientée objet.
+Ce programme définit des correspondances entre les schémas de la base de données et les classes du programme applicatif. On pourrait le désigner par là, « comme une couche d'abstraction entre le monde objet et monde relationnel ». Du fait de sa fonction, on retrouve ce type de programme dans un grand nombre de frameworks sous la forme de composant ORM qui a été soit développé, soit intégré depuis une solution externe.</p>";s:12:"content_meta";N;}
